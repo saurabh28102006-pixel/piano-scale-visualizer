@@ -1,8 +1,8 @@
-# 🎹 Harmonix Piano Studio
+# 🎹 Harmonix • Piano & Scale Studio
 
 <div align="center">
 
-![Harmonix Piano Studio Preview](./public/preview.png)
+![Harmonix • Piano & Scale Studio Preview](./public/preview.png)
 
 **Interactive Piano, Scale Visualizer, Chord Progressions & Ear Training Studio**
 
@@ -20,7 +20,7 @@
 
 ## 🌟 Overview
 
-**Harmonix Piano Studio** is an educational and interactive music theory workstation built for musicians, producers, teachers, and music learners. Visualize scales, hear harmonies across multiple instruments, explore chord progressions, study the Circle of Fifths, and practice your ear with interactive music quizzes.
+**Harmonix • Piano & Scale Studio** is an educational and interactive music theory workstation built for musicians, producers, teachers, and music learners. Visualize scales, hear harmonies across multiple instruments, explore chord progressions, study the Circle of Fifths, and practice your ear with interactive music quizzes.
 
 ---
 

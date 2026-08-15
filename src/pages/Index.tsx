@@ -66,10 +66,10 @@ const Index = () => {
       {/* Header Section */}
       <header className="text-center mb-6 max-w-2xl mx-auto">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 bg-gradient-to-r from-blue-600/20 via-indigo-600/20 to-purple-600/20 border border-blue-500/30 text-sky-400 text-xs font-bold rounded-full mb-3 shadow-[0_0_15px_rgba(56,189,248,0.15)]">
-          <Sparkles className="w-3.5 h-3.5 text-amber-400" /> HARMONIX • PIANO & MUSIC STUDIO
+          <Sparkles className="w-3.5 h-3.5 text-amber-400" /> HARMONIX • PIANO & SCALE STUDIO
         </div>
         <h1 className="text-3xl md:text-5xl font-black tracking-tight text-white bg-clip-text bg-gradient-to-r from-white via-sky-200 to-indigo-200">
-          Harmonix Piano Studio
+          Harmonix • Piano & Scale Studio
         </h1>
         <p className="text-xs md:text-sm text-slate-400 mt-2">
           Visualize, hear, and master scales, modes, chord progressions, and the Circle of Fifths.
