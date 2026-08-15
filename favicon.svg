@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Key Glow Gradient -->
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Gold Accent -->
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Card with Shadow -->
+  <rect x="24" y="24" width="464" height="464" rx="100" fill="url(#bgGrad)" stroke="#38bdf8" stroke-width="8" stroke-opacity="0.5" />
+
+  <!-- Piano Keyboard Graphic -->
+  <g transform="translate(68, 120)">
+    <!-- White Keys -->
+    <rect x="0" y="0" width="70" height="260" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="4" />
+    <rect x="76" y="0" width="70" height="260" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="4" />
+    <rect x="152" y="0" width="70" height="260" rx="12" fill="url(#cyanGlow)" stroke="#38bdf8" stroke-width="4" filter="url(#glow)" />
+    <rect x="228" y="0" width="70" height="260" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="4" />
+    <rect x="304" y="0" width="70" height="260" rx="12" fill="url(#goldGlow)" stroke="#f59e0b" stroke-width="4" filter="url(#glow)" />
+
+    <!-- Black Keys -->
+    <rect x="48" y="0" width="48" height="155" rx="8" fill="#0f172a" stroke="#334155" stroke-width="3" />
+    <rect x="124" y="0" width="48" height="155" rx="8" fill="#0284c7" stroke="#38bdf8" stroke-width="3" />
+    <rect x="276" y="0" width="48" height="155" rx="8" fill="#b45309" stroke="#f59e0b" stroke-width="3" />
+
+    <!-- Musical Sparkles / Note Indicator -->
+    <circle cx="187" cy="220" r="10" fill="#ffffff" />
+    <circle cx="339" cy="220" r="10" fill="#ffffff" />
+  </g>
+
+  <!-- Glowing Musical Note at Top Right -->
+  <g transform="translate(330, 60)" filter="url(#glow)">
+    <path d="M 50 15 L 90 5 L 90 55 A 15 15 0 1 1 70 70 L 70 25 L 50 30 L 50 65 A 15 15 0 1 1 30 80 L 30 15 Z" fill="#38bdf8" />
+  </g>
+</svg>
